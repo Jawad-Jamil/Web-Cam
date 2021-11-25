@@ -1,0 +1,29 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .cam_wrapper {
+    width: 800px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cam_wrapper {
+    width: 700px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .cam_wrapper {
+    width: 600px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cam_wrapper {
+    width: 100%;
+    padding: 10px !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
